@@ -1,13 +1,6 @@
 class Question
   attr_accessor :question, :answer
 
-  def initialize
-    @num_1 = nil
-    @num_2 = nil
-    @question = nil
-    @answer = nil
-  end
-
   def generate_question(name)
     @num_1 = rand(1..20)
     @num_2 = rand(1..20)
